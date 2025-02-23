@@ -8,11 +8,11 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-    <h1>MBTA T-Line Map</h1>
-    <TLineMap />
-  </div>
-  );
+      <div>
+        <h1>MBTA T-Line Map</h1>
+        <TLineMap />
+      </div>
+    );
 }
 
 export default App;
