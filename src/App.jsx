@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { supabase } from './supabase'
-import './Home.jsx'
+import Home from './Home.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
