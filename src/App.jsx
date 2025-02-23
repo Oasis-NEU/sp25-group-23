@@ -9,6 +9,7 @@ function App() {
 
   return (
       <div>
+        <Home />
         <h1>MBTA T-Line Map</h1>
         <TLineMap />
       </div>
