@@ -19,15 +19,15 @@ function LeftBox({ isClicked }) {
 
             <div class = "labels">
                 <ul class = "stopNames">
-                    <li>Arlington</li>
-                    <li>Copley</li>
-                    <li>Prudential</li>
-                    <li>Symphony</li>
-                    <li>Northeastern</li>
-                    <li>Museum of Fine Arts</li>
-                    <li>Longwood Medical Area</li>
-                    <li>Brigham Circle</li>
-                    <li>Fenwood Road</li>
+                    <li class = "liStop">Arlington</li>
+                    <li class = "liStop">Copley</li>
+                    <li class = "liStop">Prudential</li>
+                    <li class = "liStop">Symphony</li>
+                    <li class = "liStop">Northeastern</li>
+                    <li class = "liStop">Museum of Fine Arts</li>
+                    <li class = "liStop">Longwood Medical Area</li>
+                    <li class = "liStop">Brigham Circle</li>
+                    <li class = "liStop">Fenwood Road</li>
                 </ul>
             </div>
 

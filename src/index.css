@@ -92,6 +92,10 @@ map {
   float: right;
 }
 
-.alignStopNames {
-  margin: 40px;
+.liStop {
+  margin: 35px;
+}
+
+.labels {
+  margin-top : -20%;
 }
