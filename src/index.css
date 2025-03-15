@@ -74,7 +74,7 @@ map {
   border-radius: 20px;
   z-index: -1;
   align-items: center;
-  margin-left: 30%;
+  margin-left: 40%;
   float: left;
 }
 
@@ -90,10 +90,13 @@ map {
   list-style-type: none;
   color: black;
   float: right;
+  margin-right: 20%;
+  margin-top:2%; 
+
 }
 
 .liStop {
-  margin: 35px;
+  margin-bottom: 37px;
 }
 
 .labels {

@@ -23,7 +23,7 @@ function Home() {
               borderRadius: "8px",
             }}
           >
-            <LeftBox isClicked={"hello"} />
+            <LeftBox isClicked={"o"} />
           </div>
           <div
             style={{
