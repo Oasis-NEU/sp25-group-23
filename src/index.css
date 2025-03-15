@@ -44,3 +44,37 @@ map {
     background-color: #f9f9f9;
   }
 }
+
+/* down here */
+
+.button-path {
+  display: flex;
+  align-items: center; /* Align items vertically in the container */
+}
+
+.button-path .button {
+  padding: 10px 10px;
+  margin: 0 10px; /* Add spacing between buttons */
+  border: none;
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button-path .button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  z-index: -1;  /*Place behind the button */
+}
+
+.button-path .button:first-child::before {
+  display: none; /* Hide the first button's connecting line */
+}
