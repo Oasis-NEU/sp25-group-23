@@ -62,17 +62,13 @@ map {
   border-radius: 20px;
 }
 
-.button-path .button::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -10px;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  background-color: #333;
-  border-radius: 50%;
-  z-index: -1;  /*Place behind the button */
+.line {
+  /*position: absolute;*/
+  /*top: 25px;*/
+  height: 20px;
+  width: 100%;
+  background-color: rgb(59, 100, 53);
+  z-index: -1;
 }
 
 .button-path .button:first-child::before {
