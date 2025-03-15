@@ -13,13 +13,13 @@ function Home() {
     >
         <h1>Welcome to CityRat!</h1>
         <div
-          style={{ display: "flex", flexDirection: "row", backgroundColor: "#c6fc03", width: "100vw", height: "80vh", alignItems: "center", justifyContent: "center" }}
+          style={{ display: "flex", flexDirection: "row", backgroundColor: "#ffffff", width: "100vw", height: "80vh", alignItems: "center", justifyContent: "center" }}
         >
           <div
             style={{
               width: "100%",
               height: "100%",
-              border: "2px solid #3b82f6",
+              border: "2px solid rgb(0, 0, 0)",
               borderRadius: "8px",
             }}
           >
@@ -29,7 +29,7 @@ function Home() {
             style={{
               width: "100%",
               height: "100%",
-              border: "2px solid #3b82f6",
+              border: "2px solid rgb(0, 0, 0)",
               borderRadius: "8px",
             }}
           >

@@ -1,6 +1,6 @@
 function LeftBox({ isClicked }) {
     return (
-        <div>
+        <div class = "leftBoxDiv">
             <p>{isClicked}</p>
             <p>hello</p>
 
