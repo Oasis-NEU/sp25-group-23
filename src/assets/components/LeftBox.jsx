@@ -1,7 +1,7 @@
 function LeftBox({ isClicked }) {
     return (
         <div class = "leftBoxDiv">
-            <p>{isClicked}</p>s
+            <p>{isClicked}</p>
 
             <div class="line">
                 <div class="button-path">

@@ -75,6 +75,7 @@ map {
   z-index: -1;
   align-items: center;
   margin-left: 30%;
+  float: left;
 }
 
 .button-path .button:first-child::before {
@@ -88,4 +89,9 @@ map {
 .stopNames {
   list-style-type: none;
   color: black;
+  float: right;
+}
+
+.alignStopNames {
+  margin: 40px;
 }
