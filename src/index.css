@@ -49,31 +49,28 @@ map {
 
 .button-path {
   display: flex;
-  flex-direction: column;
   align-items: center; /* Align items vertically in the container */
 }
 
 .button-path .button {
   padding: 10px 10px;
-  margin: 10px 10px; /* Add spacing between buttons */
+  margin: 0 10px; /* Add spacing between buttons */
   border: none;
   background-color: #ffffff;
   color: white;
   cursor: pointer;
   border-radius: 20px;
-  align-items: center;
 }
 
 .line {
   /*position: absolute;*/
   /*top: 25px;*/
-  height: 100%;
-  width: 20px;
+  height: 20px;
+  width: 100%;
   left: 50%; /* Center it horizontally */
   top: 50%;
   background-color: rgb(59, 100, 53);
   z-index: -1;
-  align-items: center;
 }
 
 .button-path .button:first-child::before {
