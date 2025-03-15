@@ -69,6 +69,8 @@ map {
   /*top: 25px;*/
   height: 100%;
   width: 20px;
+  left: 50%; /* Center it horizontally */
+  top: 50%;
   background-color: rgb(59, 100, 53);
   z-index: -1;
   align-items: center;
@@ -76,8 +78,4 @@ map {
 
 .button-path .button:first-child::before {
   display: none; /* Hide the first button's connecting line */
-}
-
-.leftBoxDiv {
-  align-items: center;
 }
