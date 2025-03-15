@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { supabase } from './supabase'
+//import { supabase } from './supabase'
 import Home from './Home.jsx'
 
 function App() {
