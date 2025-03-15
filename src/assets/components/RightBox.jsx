@@ -8,9 +8,18 @@ function RightBox ({isClicked}) {
         )
     }
     return (
-        <div>
-            <p>right box</p>
+        <div class = "blogList">
+            <div class ="blogBox">
+                <h2>Blog Post Title Placeholder</h2>
+                <p>post info blah blah ..................................</p>
+            </div>
+            <div class ="blogBox">
+                <h2>Blog Post Title Placeholder</h2>
+                <p>post info blah blah ..................................</p>
+            </div>
         </div>
+    
+        
     )
 }
 
