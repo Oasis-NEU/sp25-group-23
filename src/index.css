@@ -84,3 +84,8 @@ map {
 .leftBoxDiv {
   align-items: center;
 }
+
+.stopNames {
+  list-style-type: none;
+  color: black;
+}
