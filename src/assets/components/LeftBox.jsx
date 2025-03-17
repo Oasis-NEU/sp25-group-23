@@ -1,19 +1,19 @@
-function LeftBox({ isClicked }) {
+
+
+function LeftBox({ setStop }) {
     return (
         <div class = "leftBoxDiv">
-            <p>{isClicked}</p>
-
             <div class="line">
                 <div class="button-path">
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
-                    <button class="button"></button>
+                    <button onClick={setStop("Arlington")} class="button"></button>
+                    <button onClick={setStop("Copley")} class="button"></button>
+                    <button onClick={setStop("Prudential")} class="button"></button>
+                    <button onClick={setStop("Symphony")} class="button"></button>
+                    <button onClick={setStop("Northeastern")} class="button"></button>
+                    <button onClick={setStop("Museum of Fine Arts")} class="button"></button>
+                    <button onClick={setStop("Longwood Medical Area")} class="button"></button>
+                    <button onClick={setStop("Brigham Circle")} class="button"></button>
+                    <button onClick={setStop("Fenwood Road")} class="button"></button>
                 </div>
             </div>
 
