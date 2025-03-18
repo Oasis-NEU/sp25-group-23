@@ -2,7 +2,9 @@ import { useState } from "react";
 import LeftBox from "./assets/components/LeftBox";
 import RightBox from "./assets/components/RightBox";
 function Home() {
-    const [isClicked, setIsClicked] = useState(false);
+    const [stop, setStop] = useState("");
+
+    console.log("stop", stop);
   return (
     <div
       style={{
@@ -23,7 +25,7 @@ function Home() {
               borderRadius: "8px",
             }}
           >
-            <LeftBox isClicked={"o"} />
+            <LeftBox setStop={setStop}/>
           </div>
           <div
             style={{
@@ -33,7 +35,7 @@ function Home() {
               borderRadius: "8px",
             }}
           >
-            <RightBox isClicked={isClicked}  />
+            <RightBox stop={stop}  />
           </div>
         </div>
       </div>
